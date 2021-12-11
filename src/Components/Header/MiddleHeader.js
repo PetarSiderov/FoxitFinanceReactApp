@@ -1,9 +1,10 @@
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import logo from '../../Assets/img/logo.png'
+import './Header.css'
 function MiddleHeader(){
   return (
-    <div className="brand">
+    <div className="brand black">
              <div className="container">
                  <div className="row align-items-center">
                      <div className="col-lg-3 col-md-4">

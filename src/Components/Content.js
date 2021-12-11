@@ -7,30 +7,42 @@ function Content(){
         {
             Name: "Lorem ipsum dolor sit amet",
             Link: "",
-            Img: "../../Assets/img/news-450x350-1.jpg"
+            Img: "https://image.freepik.com/free-vector/red-yellow-news-business-company-logo_23-2148462311.jpg"
         },
         {
             Name: "Lorem ipsum dolor sit amet",
             Link: "",
-            Img: "../../Assets/img/news-450x350-2.jpg"
+            Img: "https://image.freepik.com/free-vector/red-yellow-news-business-company-logo_23-2148462311.jpg"
         },
         {
             Name: "Lorem ipsum dolor sit amet",
             Link: "",
-            Img: "../../Assets/img/news-450x350-2.jpg"
+            Img: "https://image.freepik.com/free-vector/red-yellow-news-business-company-logo_23-2148462311.jpg"
         },
         {
             Name: "Lorem ipsum dolor sit amet",
             Link: "",
-            Img: "../../Assets/img/news-450x350-2.jpg"
+            Img: "https://image.freepik.com/free-vector/red-yellow-news-business-company-logo_23-2148462311.jpg"
         }
     ]; 
+
+    const mostReadedPost = [{
+        Name: "Lorem ipsum dolor sit amet",
+        Link: "",
+        Img: "https://image.freepik.com/free-vector/red-yellow-news-business-company-logo_23-2148462311.jpg"
+    }];
     return (
         <div className="top-news">
             <div className="container">
                 <div className="row">
-                    <LeftMainListPost postAtributes={leftListPost}></LeftMainListPost>
-                    <div  className="col-md-6 tn-right">
+                <div  className="col-md-6 tn-left">
+                    <h1>Top post</h1>
+                        <div  className="row">
+                             <LeftMainListPost postAtributes={mostReadedPost}></LeftMainListPost>
+                        </div>
+                </div>
+                <div  className="col-md-6 tn-right">
+                    <h1>Popular posts</h1>
                         <div  className="row">
                             <RightMainListPost postAtributes={leftListPost}></RightMainListPost>
                         </div>

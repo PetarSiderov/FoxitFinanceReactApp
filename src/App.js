@@ -26,7 +26,6 @@ function App() {
         <NavBar></NavBar>
       </header> )}
       <div className="container" >
-        Content 
         <Content></Content>
       </div>
       <footer>
